@@ -4,8 +4,7 @@ public class DomainObject {
 
 	public DomainObject() {
 		super();
-		String hallo;
-		String hallo2;
+		String id;
 	}
 
 }
