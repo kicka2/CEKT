@@ -7,6 +7,7 @@ public class Main {
 	/**
 	 * @param args
 	 */
+
 	public static void main(String[] args) {
 	Set <DomainObject> objectSet = new HashSet<DomainObject>();
 
