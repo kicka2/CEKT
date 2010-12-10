@@ -49,4 +49,12 @@ public class DomainObject {
 		return uuid.equals(domainObj.getUuid());
 	}
 
+	public boolean hashcode(){
+		if(uuid != null){
+			return uuid.hashCode();
+		}else {
+			return super.hashCode();
+		}
+	}
+
 }
