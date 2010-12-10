@@ -1,12 +1,16 @@
 package at.jku.ce;
 
 public class DomainObject {
-	public String id = UUID.randomUUID.toString();
+<<<<<<< HEAD
+	public String uuid = UUID.randomUUID.toString();
+=======
+	public String uuid;
+>>>>>>> 9584a28189bc724c5df6d6a373586dd40b804a89
 	private String name;
 
 	public DomainObject(String id) {
 		super();
-		this.id = id;
+		this.uuid = id;
 	}
 
 	/**
@@ -14,11 +18,11 @@ public class DomainObject {
 	 */	
 	public DomainObject() {
 		super();
-		String id;
+		String uuid;
 	}
 
-	public String getId(){
-		return id;
+	public String getUuid(){
+		return uuid;
 	}
 
 }
