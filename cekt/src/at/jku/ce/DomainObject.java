@@ -8,6 +8,9 @@ public class DomainObject {
 		this.id = id;
 	}
 
+	/**
+	 * Default constructor
+	 */	
 	public DomainObject() {
 		super();
 		String id;
