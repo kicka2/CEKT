@@ -9,7 +9,7 @@ public class Main {
 	 */
 
 	public static void main(String[] args) {
-	Set <DomainObject> objectSet = new HashSet<DomainObject>();
+	Set <DomainObject> objectSet = new TreeSet<DomainObject>(new DomainObjectComperator());
 
 	objectSet.add(new DomainObject ("Helga", "Kommentar1"));
 	objectSet.add(new DomainObject ("Walter", "Kommentar2"));
@@ -18,7 +18,7 @@ public class Main {
 	objectSet.add(new DomainObject ("Claudia", "Kommentar5"));
 
 	for (DomainObject domainObject : objectSet) {
-		LOGGER.debug(domainObject.Uuid);
+		LOGGER.debug(domainObject.toString());
 	}
 
 	}
