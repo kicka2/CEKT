@@ -5,6 +5,8 @@ public class DomainObject {
 
 	private String name;
 
+	private Sting comment;
+
 	public DomainObject(String id) {
 		super();
 		this.uuid = id;
@@ -20,6 +22,12 @@ public class DomainObject {
 
 	public String getUuid(){
 		return uuid;
+	}
+	public String getComment(){
+		return comment;
+	}
+	public void setComment(){
+		this.comment = comment;
 	}
 
 }
