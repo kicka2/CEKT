@@ -4,10 +4,12 @@ public class DomainObject {
 	private String uuid = UUID.randomUUID.toString();
 
 	private String name;
+	private Sting comment;
 
-	public DomainObject(String id) {
+	public DomainObject(String name, String comment) {
 		super();
-		this.uuid = id;
+		this.name = name;
+		this.comment = comment;
 	}
 
 	/**
@@ -20,6 +22,12 @@ public class DomainObject {
 
 	public String getUuid(){
 		return uuid;
+	}
+	public String getComment(){
+		return comment;
+	}
+	public void setComment(){
+		this.comment = comment;
 	}
 
 }
