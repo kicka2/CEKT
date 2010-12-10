@@ -17,7 +17,7 @@ public class Main {
 	protected objectSet.add(new DomainObject ("Paul", "Kommentar4"));
 	protected objectSet.add(new DomainObject ("Claudia", "Kommentar5"));
 
-	for (DomainObject domainObject : objectSet) {
+	for (DomainObject domainObject : objectSet)  {
 		LOGGER.debug(domainObject.toString());
 	}
 
