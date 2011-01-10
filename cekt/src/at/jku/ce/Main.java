@@ -10,4 +10,6 @@ public class Main {
 	objectSet.add(new DomainObject("Helga", "hallo");
 	}
 
+änderung der ausgabe getuuid();
+
 }
