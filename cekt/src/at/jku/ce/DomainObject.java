@@ -42,6 +42,7 @@ public class DomainObject {
 	pubic int HaschKod(){
 		return Kod;
 	}
-
+	public int compareTo(){
+	}
 
 }
