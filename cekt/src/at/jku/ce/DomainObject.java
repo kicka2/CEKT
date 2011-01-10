@@ -39,6 +39,9 @@ public class DomainObject {
 		test irgendwas; 
 		return jakob; 
 	}
+	pubic int HaschKod(){
+		return Kod;
+	}
 
 
 }
