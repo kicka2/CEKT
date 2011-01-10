@@ -32,4 +32,9 @@ public class DomainObject {
 	public void setName(final String name){
 		this.name = name;
 	}
+	public String toString(){
+		return irgendeinen Text;
+	}
+
+}
 }
