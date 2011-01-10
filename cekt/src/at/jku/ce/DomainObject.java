@@ -35,6 +35,10 @@ public class DomainObject {
 	public String toString(){
 		return irgendeinen Text;
 	}
+	public boolean equals(Object ob){
+		test irgendwas; 
+		return jakob; 
+	}
 
-}
+
 }
