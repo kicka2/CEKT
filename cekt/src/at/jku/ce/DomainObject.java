@@ -3,6 +3,7 @@ package at.jku.ce;
 public class DomainObject {
 	private String uuid = UUID.randomUUID().toString();
 	private String name;
+	private String comment;
 
 	/**
 	*Default const
@@ -19,5 +20,10 @@ public class DomainObject {
 	public String getUuId(){
 		return id;
 	}
-
+	public String getComment(){
+		return comment;
+	}
+	public void setComment(String comment){
+		this.comment = comment;
+	}
 }
